@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid;
+}
+.menu , .case{
+    display: flex;
+}
+.menu__item {
+    list-style: none;
+    margin-left: 30%;
+}
+.menu__item a{
+    text-decoration: none;
+    color: #000000;
+}
+.case{
+    margin-left: 60%;
+}
+.case__item{
+    list-style: none;
+}
+.case__item a{
+    text-decoration: none;
+    color: #000000;
+}
+.first__image{
+    width: 92%;
+    padding-left: 8%;
+    padding-top: 3%;
+}
+.first__text-h{
+    font-size: 5vw;
+}
+.first__text-p{
+    padding-top: 2%;
+    font-size: 2vw;
+    color: #AAAAAA;
+}
+.img4__t{
+    width: 100%;
+}
+.text__three{
+    font-size: 48px;
+    text-align: center;
+}
+.text__tree{
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 32px;
+}
+.text__df-one{
+    color: #1A1A1A;
+    font-size: 48px;
+}
+.text__df-two{
+    color: #46856E;
+}
+.text__fg-one{
+    font-size: 46px;
+    color: #AAAAAA;
+    text-align: center;
+}
+.text__fg-two{
+    font-size: 46px;
+    text-align: center;
+}
+.star{
+    width: 100%;
+}
+footer{
+    padding-top: 2%;
+    background-color: #2B2B2B;
+    color: azure;
+}
+footer ul{
+    list-style: none;
+}
+footer p{
+    padding-left: 12%;
+}
+.icon{
+    margin-left: 12%;
+}
